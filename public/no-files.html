@@ -7,12 +7,12 @@
     <title>Filedrop</title>
   </head>
   <body>
-    <form id="form" action="upload" method="post" enctype="multipart/form-data">
-      <label id="files">
-        Drop files here
-        <input type="file" name="items" multiple />
-      </label>
-      <input type="submit" id="submit" value="Submit" />
-    </form>
+    You did not attach any files.
+    <button onclick="goBack()">Back</button>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
   </body>
 </html>
