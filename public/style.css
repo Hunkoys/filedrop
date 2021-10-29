@@ -1,0 +1,32 @@
+body {
+  font-family: Verdana;
+}
+
+#form {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+#files {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: #dcdcdc;
+  font-size: 1.8em;
+  color: rgb(28, 80, 250);
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+#submit {
+  margin-top: 20px;
+  height: 80px;
+  font-size: 1.8em;
+}
