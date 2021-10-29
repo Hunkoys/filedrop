@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
+const qrcode = require('qrcode-terminal');
 const routeUpload = require('./routes/upload');
 const ipResolver = require('./src/ip-resolver');
 
@@ -17,5 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 routeUpload(app, FOLDER);
 
 app.listen(PORT, () => {
-  console.log(`listening on: ${ip}:${PORT}`);
+  console.clear();
+  qrcode.generate(`http://${ip}:${PORT}`, { small: true });
+  console.log(`\nScan the QR Code ORs go to ${ip}:${PORT} on your browser.`);
+  console.log(`\nUploads:\n`);
 });
