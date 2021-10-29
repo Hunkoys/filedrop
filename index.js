@@ -6,7 +6,7 @@ const PORT = process.env.PORT;
 
 const app = express();
 
-app.use(express.static(path.resolve(__dirname, 'public')));
+app.use(express.static(path.resolve(__dirname, 'public'), { extensions: ['html'] }));
 
 app.listen(PORT, () => {
   console.log(`listening on port: ${PORT}`);
