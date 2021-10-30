@@ -6,7 +6,7 @@ Fast, easy, _free_ file transfer app for your devices.
 
 ## Usage
 
-### 1. Start app
+### 1. Start the app
 
 <img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/app.png" width="600">
 
@@ -14,7 +14,7 @@ Fast, easy, _free_ file transfer app for your devices.
 
 <img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/qr-scan.png" width="300">
 
-### 3. Drop
+### 3. Drop!
 
 <img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/mobile-ui.gif" width="300">
 
