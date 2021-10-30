@@ -8,14 +8,14 @@ Fast, easy, _free_ file transfer app for your devices.
 
 ### 1. Start app
 
-<img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/app.png" width="300">
+<img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/app.png" width="600">
 
 ### 2. Scan
 
-<img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/qr-scan.png" width="150">
+<img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/qr-scan.png" width="300">
 
 ### 3. Drop
 
-<img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/mobile-ui.gif" width="150">
+<img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/mobile-ui.gif" width="300">
 
 ## Installation
