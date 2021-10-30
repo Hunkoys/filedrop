@@ -20,6 +20,6 @@ routeUpload(app, FOLDER);
 app.listen(PORT, () => {
   console.clear();
   qrcode.generate(`http://${ip}:${PORT}`, { small: true });
-  console.log(`\nScan the QR Code ORs go to ${ip}:${PORT} on your browser.`);
+  console.log(`\nScan the QR Code OR go to ${ip}:${PORT} on your browser.`);
   console.log(`\nUploads:\n`);
 });
