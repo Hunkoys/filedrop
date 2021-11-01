@@ -19,3 +19,36 @@ Fast, easy, _free_ file transfer app for your devices.
 <img src="https://raw.githubusercontent.com/hunkoys/filedrop/master/docs/images/mobile-ui.gif" width="300">
 
 ## Installation
+
+If you haven't already, first install [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)
+
+Installers of current versions of node already comes with npm. I recommend downloading the LTS version.
+
+[Download node installer](https://nodejs.org/en/download/)
+
+Once you have node installed, download this app by running this commnand:
+
+```bash
+git clone https://github.com/Hunkoys/filedrop.git
+```
+
+this will download a folder named `filedrop`. Go (`cd`) in that folder and install the other dependencies:
+
+```bash
+cd filedrop
+npm install
+```
+
+## How to run app
+
+`cd` into the app folder and run this command:
+
+```bash
+npm run start
+```
+
+## How to stop app
+
+Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>
+
+Windows: <kbd>Ctrl</kbd> + <kbd>C</kbd>
