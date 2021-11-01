@@ -51,8 +51,7 @@ npm run start
 
 On the terminal window, perform this keyboard shortcut:
 
-Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>
-
-Windows: <kbd>Ctrl</kbd> + <kbd>C</kbd>
+* Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>
+* Windows: <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 or just close the terminal window.
