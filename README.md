@@ -26,7 +26,7 @@ Installers of current versions of node already comes with npm. I recommend downl
 
 [Download node installer](https://nodejs.org/en/download/)
 
-Once you have node installed, download this app by running this commnand:
+Once you have node installed, open a terminal and download this app by typing in this commnand:
 
 ```bash
 git clone https://github.com/Hunkoys/filedrop.git
@@ -49,6 +49,10 @@ npm run start
 
 ## How to stop app
 
+On the terminal window, perform this keyboard shortcut:
+
 Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>
 
 Windows: <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+or just close the terminal window.
